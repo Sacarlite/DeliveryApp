@@ -1,0 +1,97 @@
+.filtersContainer {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  overflow: visible;
+  z-index: 2;
+}
+
+.filterButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.filterDropdownMenu {
+  padding: 30px;
+  min-width: 600px; 
+  max-width: 800px; 
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 20px;
+}
+
+.filterDropdownMenu .mb-3 {
+  margin-bottom: 30px;
+}
+
+.filterDropdownMenu .form-label {
+  font-weight: bold;
+  margin-bottom: 12px;
+  display: block;
+  color: #333;
+  font-size: 1.05rem;
+}
+
+.filterDropdownMenu .form-control {
+  width: 100%;
+  padding: 14px 12px;
+  font-size: 1rem;
+  height: auto;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+
+.filterDropdownMenu .form-select {
+  width: 100%;
+}
+
+.weight-inputs-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.weight-inputs-container .form-control {
+  flex: 1;
+}
+
+.range-slider-wrapper {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding: 0 5px;
+}
+
+.react-range__track {
+  height: 8px;
+  border-radius: 4px;
+}
+
+.react-range__thumb {
+  height: 24px;
+  width: 24px;
+  background-color: #007bff;
+  border: 2px solid white;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.filterDropdownMenu .d-grid {
+  margin-top: 30px;
+}
+
+.resetFiltersButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 20px;
+  font-size: 1.05rem;
+  border-radius: 5px;
+  width: 100%;
+}

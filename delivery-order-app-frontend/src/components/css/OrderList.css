@@ -1,0 +1,33 @@
+.table-container {
+  margin-top: 30px;
+  width: 100%;
+  height: max-content;
+}
+
+
+.header-with-refresh {
+  display: flex;
+  align-items: first baseline; 
+  margin-bottom: 20px; 
+}
+
+
+.refresh-button {
+  font-size: 1.5rem; 
+  color: #007bff;
+  border: none; 
+  background: none; 
+  cursor: pointer;
+  padding: 0; 
+  margin-left: 10px;
+  transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+.refresh-button:hover {
+  color: #0056b3;
+  transform: rotate(30deg); 
+}
+
+.refresh-button.btn-link:hover {
+  text-decoration: none;
+}

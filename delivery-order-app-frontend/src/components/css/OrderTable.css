@@ -1,0 +1,47 @@
+.orders-table td,
+.orders-table th {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap; 
+  user-select: none; 
+}
+.reset-filters-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.orders-table th {
+  background-color: #007bff;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  text-align: center;
+  word-wrap: break-word;  
+  white-space: normal;  
+  padding: 10px;
+  word-break: break-word;
+}
+
+.orders-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.orders-table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.orders-table tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.orders-table .selected {
+  background-color: #d1e7dd;
+}
+
+.orders-table input[type="checkbox"] {
+  margin: 0;
+}
